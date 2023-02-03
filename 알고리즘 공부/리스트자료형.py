@@ -1,3 +1,3 @@
 import sys
-data = sys.stdin.readline().rstrip()
-print(data)
+data1 = sys.stdin.readline().rstrip()
+print(data1)

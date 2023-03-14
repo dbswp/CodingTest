@@ -18,7 +18,7 @@ for i in babbling:
     cnt += 1
     arr.append(i)
 
-print(arr1)
-print(arr)
-print(cnt)
-print("hello world")
+print(arr1);
+print(arr);
+print(cnt);
+print("hello world");

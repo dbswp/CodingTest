@@ -4,15 +4,19 @@ def solution(participant, completion):
     b = Counter(completion)
     answer = a - b
     for key in answer.keys():
-        return key
+        return key, a
       
-#     for i in participant:
-#         if i in answer:
-#             answer[i] += 1
-#         else:
-#             answer[i] = 1
-    
-#         for j in completion:
-#             if j in answer:
-#                 answer[j] -= 1
-#     return answer
+# def solution(participant, completion):
+# 	answer = {}
+# 	for i in participant:
+# 		  if i in answer:
+# 		     answer[i] += 1
+# 		  else:
+# 		     answer[i] = 1
+# 	for i in completion:
+#       if answer[i]==1: 
+#           del answer[i]
+#       else: 
+#             answer[i] -=  1
+# 	for key in answer.keys():
+# 	    return key

@@ -5,7 +5,10 @@ def solution(participant, completion):
     answer = a - b
     for key in answer.keys():
         return key, a
-      
+
+# Counter -> {'A': 2, 'B': 1, 'C': 1}
+
+
 # def solution(participant, completion):
 # 	answer = {}
 # 	for i in participant:

@@ -7,6 +7,8 @@ def solution(participant, completion):
         return key, a
 
 # Counter -> {'A': 2, 'B': 1, 'C': 1}
+# answer = a - b
+# {'A': 1}
 
 
 # def solution(participant, completion):

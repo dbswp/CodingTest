@@ -22,7 +22,7 @@ def solution(n, edge):
         # 이동 가능한 모든 노드 확인
         for i in graph[now]:
             # if visited[i] == 0
-            if not visited[i]:
+            if not visited[i]: # 방문하지 않았으면
                 q.append(i) # 큐에 추가
                 visited[i] = visited[now] + 1 # 최단 거리 갱신
                 
